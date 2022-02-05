@@ -679,7 +679,6 @@ class EventConnectionResolver extends AbstractConnectionResolver {
 			unset( $this->query_args[ $key ] );
 		}
 
-
 		return $query;
 	}
 }
